@@ -1,0 +1,327 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.display{
+    display: flex;
+}
+.left-bar{
+    background-color: #111111;
+    width: 50px;
+}
+.left-bar .icons-back{
+    background-color: #000000;
+    margin-top: 20%;
+}
+.left-bar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.left-bar .logo img{
+    width: 100%;
+}
+.left-bar .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    color: #ffffff;
+}
+.left-bar .icon i{
+    font-size: 20px;
+}
+.left-bar .icon:hover{
+    background-color: #111111;
+    color: #E13491;
+    cursor: pointer;
+}
+.right-side{
+    width: 100%;
+}
+.right-side .header{
+    display: flex;
+    align-items: center;
+    background-color: #46B39E;
+
+    height: 60px;
+}
+.header-display{
+    display: flex;
+    align-items: center;
+}
+.header-display-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-display-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header .hamberger{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.header .hamberger i{
+    font-size: 16px;
+    color: #ffffff;
+}
+.header .search-div{
+    padding: 19px;
+    background-color: #000000;
+}
+.header .search-div i{
+    font-size: 20px;
+    color: white;
+}
+.music{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 4%;
+}
+.music .fa-backward{
+    color: white;
+    padding: 20px;
+}
+.music .fa-forward{
+    color: white;
+    padding: 20px;
+}
+.music .fa-forward{
+    padding: 20px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 4px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+/* .slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: #4CAF50;
+    cursor: pointer;
+} */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #E13491;
+    cursor: pointer;
+}
+.volume{
+    display: flex;
+    align-items: center;
+}
+.volume i{
+    padding: 10px;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 4px;
+}
+.login-btn p{
+    margin-bottom: 0;
+    color: #E13491;
+}
+.login-btn i{
+    color: white;
+}
+.signin-icon{
+    font-size: 18px;
+}
+.banner{
+    background-image: url("../img/banner.jpeg");
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner .banner-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 37px;
+    color: #ffffff;
+}
+.banner .banner-inner .banner-content h1{
+    font-size: 33px;
+    margin-bottom: 17px;
+    margin-left: 7px;
+}
+.whiteColor{
+    color:white;
+}
+.banner .banner-inner .banner-content p{
+    font-size: 16.5px;
+    margin-bottom: 23px;
+    margin-left: 7px;
+
+}
+.banner .banner-inner .banner-content span{
+    color: black;
+}
+.banner .banner-inner .trending{
+    background: #E13491;
+    width: 92px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 1px;
+    margin-left: 8px;
+}
+.banner .banner-inner .trending p{
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.banner-slider .carousel-indicators{
+    right: 0!important;
+    bottom: 0px!important;
+}
+.carousel-indicat{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 83px;
+    height: 30px;
+    padding: 0;
+    background-color: #E4E3E5;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.carousel-indicat li{
+    border: 1px solid #E13491;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #E13491;
+}
+.carousel-indicat li.active{
+    border: 1px solid #46B39E;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #46B39E;
+}
+.indicators-div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.new-releases-head h1{
+    margin: 0;
+    font-size: 26px;
+}
+.new-releases-head p{
+    margin-bottom: 0;
+}
+.new-releases-head .new-btn{
+    margin-left: 10px;
+    background-color: #E13491;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: white;
+}
+.new-releases-head .see-all{
+    display: flex;
+    justify-content: flex-end;
+}
+.new-releases-head .see-all a{
+    color: #E13491;
+    text-decoration: none!important;
+}
+.new-releases{
+    padding: 15px 0px;
+}
+.new-releases .card-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-releases .card-display>div{
+    width: 100%;
+    border-radius: 4px;
+}
+.new-releases .card-display img{
+    width: 100%;
+}
+#myCarousel{
+    margin-top: 2%;
+}
+.video-panal{
+    margin-top: 1.3%;
+}
+.video-panal .video-div{
+    height: 200px;
+}
+.video-panal .songs-div{
+    margin-top: 10px;
+    background-color: #222222;
+    color: #666a6d;
+}
+.video-panal .songs-div .songs-name{
+    list-style: none;
+    padding-left: 0;
+}
+.video-panal .songs-div .songs-name li{
+    padding: 12px 20px;
+    border-bottom:1px solid #666a6d;
+    cursor: pointer;
+}
+.video-panal .songs-div .songs-name li:hover, .video-panal .music-name-div .music-name li:hover{
+    background-color: #3a3838;
+    cursor: pointer;
+    color: #ffffff
+}
+.video-panal .music-div{
+    margin-top: 30px;
+    background-color: #222222;
+    border-bottom:1px solid #666a6d;
+}
+.video-panal .music-div h1{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.video-panal .music-name-div .music-name{
+    list-style: none;
+    padding-left: 0;
+}
+.video-panal .music-name-div{
+    background-color: #222222;
+    color: #666a6d;
+}
+.video-panal .music-name-div .music-name li{
+    padding: 12px 20px;
+    border-bottom:1px solid #666a6d;
+    cursor: pointer;
+}
